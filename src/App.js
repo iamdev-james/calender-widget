@@ -15,7 +15,7 @@ function App() {
   ) : (
     <div className='w-screen h-screen bg-gray-100 flex flex justify-center items-center'>
       <div className='text-center'>
-        <div className='flex'>
+        <div className='flex flex-col md:flex-row'>
           <div className='mr-7'>
             <p className='font-semibold mb-3'>From:</p>
             <Calender />
